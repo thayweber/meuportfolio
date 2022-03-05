@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#topmenu{
+    display: flex;
+    background-color: lightpink;
+
+}
+
+#topmenu li{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+body{
+    background-color: palevioletred;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#topmenu li:first-child{
+    margin-right: auto;
+}
+
+.section1{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+}
+
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+
+.habilidades{
+    padding: 25px;
+    border: 5px solid darkmagenta;
+    border-radius: 25px;
+    background-color: lightpink;
+
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+header{
+    font-size: 35px;
+}
+
+.section1 h1{
+    font-size: 30px;
+}
+
+.section1 p{
+    font-size: 25px;
+}
+
+.imagem{
+    border: 5px solid darkmagenta;
+    border-radius: 15px;
+}
